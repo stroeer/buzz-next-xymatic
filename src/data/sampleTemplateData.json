@@ -1,0 +1,1664 @@
+{
+  "adHudDefinitions": {
+    "iconSet": "https://cdn.greenvideo.io/assets/hud2.woff",
+    "scenes": {
+      "baseMixin": {
+        "mediaQuery": "all",
+        "slots": {
+          "bg": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0s",
+                  "duration": "0.25s",
+                  "type": "fadeIn"
+                },
+                "height": {
+                  "value": 1
+                },
+                "name": "Background Gradient",
+                "props": {
+                  "stops": [
+                    {
+                      "color": "rgba(0,0,0,0)",
+                      "pos": "0%"
+                    },
+                    {
+                      "color": "rgba(0,0,0,0)",
+                      "pos": "85%"
+                    },
+                    {
+                      "color": "rgba(0,0,0,0.35)",
+                      "pos": "100%"
+                    }
+                  ]
+                },
+                "type": "Gradient",
+                "width": {
+                  "value": 1
+                }
+              }
+            ]
+          },
+          "bottomFullLower": {
+            "elements": [
+              {
+                "contentSize": {
+                  "max": 14,
+                  "min": 0,
+                  "value": 0.0293333333333333
+                },
+                "height": {
+                  "max": 3,
+                  "min": 3,
+                  "value": 0.0025
+                },
+                "name": "Progress Bar",
+                "props": {
+                  "color": "#B1FAA3"
+                },
+                "type": "ProgressBar",
+                "width": {
+                  "relativeToParent": true,
+                  "value": 1
+                }
+              }
+            ],
+            "positioning": {
+              "anchorBottom": true,
+              "anchorLeft": true,
+              "anchorRight": true,
+              "horizontalMargin": {
+                "max": 0,
+                "min": 0,
+                "value": 0
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 0,
+                "min": 0,
+                "value": 0
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "bottomLeft": {
+            "elements": [
+              {
+                "aspect": 1,
+                "contentSize": {
+                  "max": 22,
+                  "min": 0,
+                  "value": 0.06
+                },
+                "name": "Play Button",
+                "type": "PlayButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              },
+              {
+                "aspect": 1,
+                "contentSize": {
+                  "max": 26,
+                  "min": 0,
+                  "value": 0.07
+                },
+                "name": "Sound Button",
+                "type": "SoundButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              }
+            ],
+            "positioning": {
+              "anchorBottom": true,
+              "anchorLeft": true,
+              "horizontalMargin": {
+                "max": 10,
+                "min": 0,
+                "value": 0.0133333333333333
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 10,
+                "min": 0,
+                "value": 0.0133333333333333
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "topRight": {
+            "elements": [
+              {
+                "aspect": 1,
+                "contentSize": {
+                  "max": 28,
+                  "min": 0,
+                  "value": 0.065
+                },
+                "name": "Close Dock Button",
+                "styles": {
+                  "fontWeight": 900
+                },
+                "type": "CloseDockButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              }
+            ],
+            "positioning": {
+              "anchorRight": true,
+              "anchorTop": true,
+              "horizontalMargin": {
+                "value": 0
+              },
+              "verticalMargin": {
+                "value": 0
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          }
+        }
+      }
+    }
+  },
+  "dockHudDefinitions": {
+    "iconSet": "https://cdn.greenvideo.io/assets/hud2.woff",
+    "scenes": {
+      "baseMixin": {
+        "mediaQuery": "all",
+        "slots": {
+          "bg": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0s",
+                  "duration": "0.5s",
+                  "type": "fadeIn"
+                },
+                "height": {
+                  "value": 1
+                },
+                "name": "Background Gradient",
+                "styles": {
+                  "background": "transparent",
+                  "boxShadow": "inset 0 0 100px 16px rgba(0,0,0,0.85)"
+                },
+                "type": "Gradient",
+                "width": {
+                  "value": 1
+                }
+              }
+            ]
+          },
+          "bottomCenter": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 26,
+                  "min": 0,
+                  "value": 0.08
+                },
+                "name": "Backward15Button",
+                "spacing": {
+                  "max": 10,
+                  "min": 0,
+                  "value": 0.0133333333333333
+                },
+                "type": "Backward15Button",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              },
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 32,
+                  "min": 0,
+                  "value": 0.08
+                },
+                "name": "Play Button",
+                "spacing": {
+                  "max": 10,
+                  "min": 0,
+                  "value": 0.0133333333333333
+                },
+                "type": "PlayButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              },
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 26,
+                  "min": 0,
+                  "value": 0.08
+                },
+                "name": "Forward15Button",
+                "spacing": {
+                  "max": 10,
+                  "min": 0,
+                  "value": 0.0133333333333333
+                },
+                "type": "Forward15Button",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              }
+            ],
+            "positioning": {
+              "anchorBottom": true,
+              "verticalMargin": {
+                "inverted": true,
+                "max": 10,
+                "min": 0,
+                "value": 0.0133333333333333
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "bottomCue": {
+            "elements": [
+              {
+                "contentSize": {
+                  "max": 18,
+                  "min": 12,
+                  "value": 0.03
+                },
+                "name": "Subtitle Cues",
+                "styles": {
+                  "background": "rgba(0, 0, 0, 0.5)",
+                  "borderRadius": "0.5em",
+                  "lineHeight": "1.5em",
+                  "maxWidth": "calc(100% - 2em)",
+                  "padding": "0.5em 1em"
+                },
+                "type": "SubtitleLabel",
+                "width": {
+                  "relativeToParent": true,
+                  "value": 1
+                }
+              }
+            ],
+            "positioning": {
+              "anchorBottom": true,
+              "anchorLeft": false,
+              "anchorRight": false,
+              "centered": true,
+              "horizontalMargin": {
+                "max": 100,
+                "min": 0,
+                "value": 0.03
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 100,
+                "min": 0,
+                "value": 0.03
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "bottomFull": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "contentSize": {
+                  "max": 14,
+                  "min": 0,
+                  "value": 0.0293333333333333
+                },
+                "height": {
+                  "max": 2,
+                  "min": 2,
+                  "value": 0.0025
+                },
+                "name": "Seeking Bar",
+                "type": "SeekingBar",
+                "width": {
+                  "relativeToParent": true,
+                  "value": 1
+                }
+              }
+            ],
+            "positioning": {
+              "anchorBottom": true,
+              "anchorLeft": true,
+              "anchorRight": true,
+              "horizontalMargin": {
+                "max": 10,
+                "min": 0,
+                "value": 0.0192
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 76,
+                "min": 0,
+                "value": 0.155733333333333
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "bottomLeft": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 30,
+                  "min": 0,
+                  "value": 0.07
+                },
+                "name": "Sound Button",
+                "type": "SoundButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              }
+            ],
+            "positioning": {
+              "anchorBottom": true,
+              "anchorLeft": true,
+              "horizontalMargin": {
+                "max": 10,
+                "min": 0,
+                "value": 0.0133333333333333
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 10,
+                "min": 0,
+                "value": 0.0133333333333333
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "bottomRight": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 24,
+                  "min": 0,
+                  "value": 0.05
+                },
+                "name": "Enter Fullscreen Button",
+                "type": "EnterFullscreenButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              }
+            ],
+            "positioning": {
+              "anchorBottom": true,
+              "anchorRight": true,
+              "horizontalMargin": {
+                "max": 10,
+                "min": 0,
+                "value": 0.0133333333333333
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 10,
+                "min": 0,
+                "value": 0.0133333333333333
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "center": {
+            "elements": [
+              {
+                "aspect": 1,
+                "contentSize": {
+                  "max": 28,
+                  "min": 0,
+                  "value": 0.0506666666666667
+                },
+                "name": "Play Indicator",
+                "type": "PlayIndicator",
+                "width": {
+                  "max": 75,
+                  "min": 0,
+                  "value": 0.136
+                }
+              }
+            ],
+            "zIndex": 1
+          },
+          "centerHalf": {
+            "elements": [
+              {
+                "height": {
+                  "value": 1
+                },
+                "name": "Play Toggle",
+                "type": "PlayToggle",
+                "width": {
+                  "value": 1
+                }
+              }
+            ]
+          },
+          "topLeft": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0s",
+                  "duration": "0.2s",
+                  "type": "fadeIn"
+                },
+                "contentSize": {
+                  "max": 26,
+                  "min": 14,
+                  "value": 0.034
+                },
+                "height": {
+                  "max": 88,
+                  "min": 30,
+                  "value": 0.08
+                },
+                "name": "Title",
+                "styles": {
+                  "textAlign": "left"
+                },
+                "type": "TitleLabel",
+                "width": {
+                  "value": 0.85
+                },
+                "widthBasedSizing": true
+              }
+            ],
+            "positioning": {
+              "anchorLeft": true,
+              "anchorTop": true,
+              "horizontalMargin": {
+                "max": 16,
+                "min": 0,
+                "value": 0.02
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 16,
+                "min": 0,
+                "value": 0.02
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "topRight": {
+            "elements": [
+              {
+                "aspect": 1,
+                "contentSize": {
+                  "max": 18,
+                  "min": 0,
+                  "value": 0.065
+                },
+                "name": "Close Dock Button",
+                "styles": {
+                  "fontWeight": 900
+                },
+                "type": "CloseDockButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              }
+            ],
+            "positioning": {
+              "anchorRight": true,
+              "anchorTop": true,
+              "horizontalMargin": {
+                "value": 0
+              },
+              "verticalMargin": {
+                "value": 0
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "topRight2": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0s",
+                  "duration": "0.2s",
+                  "type": "fadeIn"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 22,
+                  "min": 0,
+                  "value": 0.05
+                },
+                "name": "Exit Fullscreen Button",
+                "type": "ExitFullscreenButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              }
+            ],
+            "positioning": {
+              "anchorRight": true,
+              "anchorTop": true,
+              "horizontalMargin": {
+                "value": 0
+              },
+              "verticalMargin": {
+                "value": 0
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          }
+        }
+      },
+      "desktopHUD": {
+        "mediaQuery": "(hover:hover)",
+        "slots": {
+          "topRight2": {
+            "positioning": {
+              "anchorRight": true,
+              "anchorTop": true,
+              "horizontalMargin": {
+                "value": 0
+              },
+              "verticalMargin": {
+                "value": 0
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          }
+        }
+      }
+    }
+  },
+  "hudDefinitions": {
+    "iconSet": "https://cdn.greenvideo.io/assets/hud2.woff",
+    "scenes": {
+      "baseMixin": {
+        "mediaQuery": "all",
+        "slots": {
+          "bg": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0s",
+                  "duration": "0.5s",
+                  "type": "fadeIn"
+                },
+                "height": {
+                  "value": 1
+                },
+                "name": "Background Gradient",
+                "styles": {
+                  "background": "transparent",
+                  "boxShadow": "inset 0 0 100px 16px rgba(0,0,0,0.85)"
+                },
+                "type": "Gradient",
+                "width": {
+                  "value": 1
+                }
+              }
+            ]
+          },
+          "bottomCue": {
+            "elements": [
+              {
+                "contentSize": {
+                  "max": 18,
+                  "min": 12,
+                  "value": 0.03
+                },
+                "name": "Subtitle Cues",
+                "styles": {
+                  "background": "rgba(0, 0, 0, 0.5)",
+                  "borderRadius": "0.5em",
+                  "lineHeight": "1.5em",
+                  "maxWidth": "calc(100% - 2em)",
+                  "padding": "0.5em 1em"
+                },
+                "type": "SubtitleLabel",
+                "width": {
+                  "relativeToParent": true,
+                  "value": 1
+                }
+              }
+            ],
+            "positioning": {
+              "anchorBottom": true,
+              "anchorLeft": false,
+              "anchorRight": false,
+              "centered": true,
+              "horizontalMargin": {
+                "max": 100,
+                "min": 0,
+                "value": 0.03
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 100,
+                "min": 0,
+                "value": 0.03
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "bottomFull": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "contentSize": {
+                  "max": 14,
+                  "min": 0,
+                  "value": 0.0293333333333333
+                },
+                "height": {
+                  "max": 2,
+                  "min": 2,
+                  "value": 0.0025
+                },
+                "name": "Seeking Bar",
+                "type": "SeekingBar",
+                "width": {
+                  "relativeToParent": true,
+                  "value": 1
+                }
+              }
+            ],
+            "positioning": {
+              "anchorBottom": true,
+              "anchorLeft": true,
+              "anchorRight": true,
+              "horizontalMargin": {
+                "max": 10,
+                "min": 0,
+                "value": 0.0192
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 76,
+                "min": 0,
+                "value": 0.155733333333333
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "bottomLeft": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 30,
+                  "min": 0,
+                  "value": 0.07
+                },
+                "name": "Sound Control",
+                "type": "SoundControlView",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              },
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 28,
+                  "min": 0,
+                  "value": 0.06
+                },
+                "name": "Info Button",
+                "type": "InfoButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              }
+            ],
+            "positioning": {
+              "anchorBottom": true,
+              "anchorLeft": true,
+              "horizontalMargin": {
+                "max": 10,
+                "min": 0,
+                "value": 0.0133333333333333
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 10,
+                "min": 0,
+                "value": 0.0133333333333333
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "bottomRight": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 18,
+                  "min": 0,
+                  "value": 0.05
+                },
+                "name": "PiP Button",
+                "type": "PipButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              },
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 24,
+                  "min": 0,
+                  "value": 0.05
+                },
+                "name": "Enter Fullscreen Button",
+                "type": "EnterFullscreenButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              }
+            ],
+            "positioning": {
+              "anchorBottom": true,
+              "anchorRight": true,
+              "horizontalMargin": {
+                "max": 10,
+                "min": 0,
+                "value": 0.0133333333333333
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 10,
+                "min": 0,
+                "value": 0.0133333333333333
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "center": {
+            "elements": [
+              {
+                "aspect": 1,
+                "contentSize": {
+                  "max": 28,
+                  "min": 0,
+                  "value": 0.0506666666666667
+                },
+                "name": "Play Indicator",
+                "type": "PlayIndicator",
+                "width": {
+                  "max": 75,
+                  "min": 0,
+                  "value": 0.136
+                }
+              }
+            ],
+            "zIndex": 1
+          },
+          "centerHalf": {
+            "elements": [
+              {
+                "height": {
+                  "value": 1
+                },
+                "name": "Play Toggle",
+                "type": "PlayToggle",
+                "width": {
+                  "value": 0.56
+                }
+              }
+            ]
+          },
+          "info": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0s",
+                  "duration": "0.2s",
+                  "type": "fadeIn"
+                },
+                "height": {
+                  "value": 1
+                },
+                "name": "Info Overlay",
+                "props": {
+                  "titleStyles": {
+                    "fontWeight": 900,
+                    "lineHeight": "130%"
+                  }
+                },
+                "type": "InfoOverlay",
+                "width": {
+                  "value": 1
+                }
+              }
+            ],
+            "zIndex": 2
+          },
+          "topLeft": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0s",
+                  "duration": "0.2s",
+                  "type": "fadeIn"
+                },
+                "contentSize": {
+                  "max": 26,
+                  "min": 14,
+                  "value": 0.034
+                },
+                "height": {
+                  "max": 88,
+                  "min": 30,
+                  "value": 0.08
+                },
+                "name": "Title",
+                "styles": {
+                  "textAlign": "left"
+                },
+                "type": "TitleLabel",
+                "width": {
+                  "value": 0.85
+                },
+                "widthBasedSizing": true
+              }
+            ],
+            "positioning": {
+              "anchorLeft": true,
+              "anchorTop": true,
+              "horizontalMargin": {
+                "max": 16,
+                "min": 0,
+                "value": 0.02
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 16,
+                "min": 0,
+                "value": 0.02
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "topRight": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0s",
+                  "duration": "0.2s",
+                  "type": "fadeIn"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 22,
+                  "min": 0,
+                  "value": 0.05
+                },
+                "name": "Exit Fullscreen Button",
+                "type": "ExitFullscreenButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              },
+              {
+                "animation": {
+                  "delay": "0s",
+                  "duration": "0.2s",
+                  "type": "fadeIn"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 22,
+                  "min": 0,
+                  "value": 0.05
+                },
+                "name": "Toggle Subtitles",
+                "spacing": {
+                  "max": 10,
+                  "min": 0,
+                  "value": 0.0133333333333333
+                },
+                "type": "ToggleSubtitlesButton",
+                "width": {
+                  "max": 32,
+                  "min": 0,
+                  "value": 0.12
+                }
+              }
+            ],
+            "positioning": {
+              "anchorRight": true,
+              "anchorTop": true,
+              "horizontalMargin": {
+                "value": 0
+              },
+              "verticalMargin": {
+                "value": 0
+              }
+            },
+            "stacking": "column",
+            "zIndex": 1
+          }
+        }
+      },
+      "desktopHUD": {
+        "mediaQuery": "(hover:hover)",
+        "slots": {
+          "bottomCenter": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 30,
+                  "min": 0,
+                  "value": 0.08
+                },
+                "name": "Seek Backward",
+                "spacing": {
+                  "max": 10,
+                  "min": 0,
+                  "value": 0.0133333333333333
+                },
+                "type": "Backward15Button",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              },
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 32,
+                  "min": 0,
+                  "value": 0.08
+                },
+                "name": "Play Button",
+                "spacing": {
+                  "max": 10,
+                  "min": 0,
+                  "value": 0.0133333333333333
+                },
+                "type": "PlayButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              },
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 30,
+                  "min": 0,
+                  "value": 0.08
+                },
+                "name": "Seek Forward",
+                "spacing": {
+                  "max": 10,
+                  "min": 0,
+                  "value": 0.0133333333333333
+                },
+                "type": "Forward15Button",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              }
+            ],
+            "positioning": {
+              "anchorBottom": true,
+              "verticalMargin": {
+                "inverted": true,
+                "max": 10,
+                "min": 0,
+                "value": 0.0133333333333333
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "centerHalf": {
+            "elements": [
+              {
+                "height": {
+                  "value": 1
+                },
+                "name": "Play Toggle",
+                "type": "PlayToggle",
+                "width": {
+                  "value": 1
+                }
+              }
+            ]
+          },
+          "topRight": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0s",
+                  "duration": "0.2s",
+                  "type": "fadeIn"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 22,
+                  "min": 0,
+                  "value": 0.05
+                },
+                "name": "Toggle Subtitles",
+                "type": "ToggleSubtitlesButton",
+                "width": {
+                  "max": 32,
+                  "min": 0,
+                  "value": 0.12
+                }
+              }
+            ],
+            "positioning": {
+              "anchorRight": true,
+              "anchorTop": true,
+              "horizontalMargin": {
+                "max": 18,
+                "min": 0,
+                "value": 0.02
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 16,
+                "min": 0,
+                "value": 0.025
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          }
+        }
+      },
+      "mobileHUD": {
+        "mediaQuery": "(hover: none)",
+        "slots": {
+          "bottomCenter": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 30,
+                  "min": 0,
+                  "value": 0.08
+                },
+                "name": "Seek Backward",
+                "spacing": {
+                  "max": 10,
+                  "min": 0,
+                  "value": 0.0133333333333333
+                },
+                "type": "Backward15Button",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              },
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 32,
+                  "min": 0,
+                  "value": 0.08
+                },
+                "name": "Play Button",
+                "spacing": {
+                  "max": 10,
+                  "min": 0,
+                  "value": 0.0133333333333333
+                },
+                "type": "PlayButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              },
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 30,
+                  "min": 0,
+                  "value": 0.08
+                },
+                "name": "Seek Forward",
+                "spacing": {
+                  "max": 10,
+                  "min": 0,
+                  "value": 0.0133333333333333
+                },
+                "type": "Forward15Button",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              }
+            ],
+            "positioning": {
+              "anchorBottom": true,
+              "verticalMargin": {
+                "inverted": true,
+                "max": 16,
+                "min": 0,
+                "value": 0.025
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "bottomLeft": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 28,
+                  "min": 0,
+                  "value": 0.06
+                },
+                "name": "Sound Button",
+                "type": "SoundButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              },
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 28,
+                  "min": 0,
+                  "value": 0.06
+                },
+                "name": "Info Button",
+                "type": "InfoButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              }
+            ],
+            "positioning": {
+              "anchorBottom": true,
+              "anchorLeft": true,
+              "horizontalMargin": {
+                "max": 10,
+                "min": 0,
+                "value": 0.0133333333333333
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 16,
+                "min": 0,
+                "value": 0.025
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "bottomRight": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 18,
+                  "min": 0,
+                  "value": 0.05
+                },
+                "name": "PiP Button",
+                "type": "PipButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              },
+              {
+                "animation": {
+                  "delay": "0.0s",
+                  "duration": "0.25s",
+                  "type": "fadeInUp"
+                },
+                "aspect": 1,
+                "contentSize": {
+                  "max": 24,
+                  "min": 0,
+                  "value": 0.05
+                },
+                "name": "Enter Fullscreen Button",
+                "type": "EnterFullscreenButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              }
+            ],
+            "positioning": {
+              "anchorBottom": true,
+              "anchorRight": true,
+              "horizontalMargin": {
+                "max": 10,
+                "min": 0,
+                "value": 0.0133333333333333
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 16,
+                "min": 0,
+                "value": 0.025
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "leftHalf": {
+            "elements": [
+              {
+                "contentSize": {
+                  "max": 30,
+                  "min": 0,
+                  "value": 0.08
+                },
+                "height": {
+                  "value": 1
+                },
+                "name": "Double Tap Left",
+                "type": "Backward15DoubleTapIndicator",
+                "width": {
+                  "value": 0.22
+                }
+              }
+            ],
+            "positioning": {
+              "anchorLeft": true
+            }
+          },
+          "rightHalf": {
+            "elements": [
+              {
+                "contentSize": {
+                  "max": 30,
+                  "min": 0,
+                  "value": 0.08
+                },
+                "height": {
+                  "value": 1
+                },
+                "name": "Double Tap Right",
+                "type": "Forward15DoubleTapIndicator",
+                "width": {
+                  "value": 0.22
+                }
+              }
+            ],
+            "positioning": {
+              "anchorRight": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "unmuteHudDefinitions": {
+    "iconSet": "https://cdn.greenvideo.io/assets/hud2.woff",
+    "scenes": {
+      "baseMixin": {
+        "mediaQuery": "all",
+        "slots": {
+          "bg": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0s",
+                  "duration": "0.5s",
+                  "type": "fadeIn"
+                },
+                "height": {
+                  "value": 1
+                },
+                "name": "Background Gradient",
+                "styles": {
+                  "background": "transparent",
+                  "boxShadow": "inset 0 0 100px 16px rgba(0,0,0,0.85)"
+                },
+                "type": "Gradient",
+                "width": {
+                  "value": 1
+                }
+              }
+            ]
+          },
+          "bottomCue": {
+            "elements": [
+              {
+                "contentSize": {
+                  "max": 18,
+                  "min": 12,
+                  "value": 0.03
+                },
+                "name": "Subtitle Cues",
+                "styles": {
+                  "background": "rgba(0, 0, 0, 0.5)",
+                  "borderRadius": "0.5em",
+                  "lineHeight": "1.5em",
+                  "maxWidth": "calc(100% - 2em)",
+                  "padding": "0.5em 1em"
+                },
+                "type": "SubtitleLabel",
+                "width": {
+                  "relativeToParent": true,
+                  "value": 1
+                }
+              }
+            ],
+            "positioning": {
+              "anchorBottom": true,
+              "anchorLeft": false,
+              "anchorRight": false,
+              "centered": true,
+              "horizontalMargin": {
+                "max": 100,
+                "min": 0,
+                "value": 0.03
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 100,
+                "min": 0,
+                "value": 0.03
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "bottomLeft": {
+            "elements": [
+              {
+                "aspect": 1,
+                "name": "UnmuteBadge",
+                "type": "UnmuteBadge",
+                "width": {
+                  "max": 48,
+                  "min": 24,
+                  "value": 0.12
+                }
+              }
+            ],
+            "positioning": {
+              "anchorBottom": true,
+              "anchorLeft": true,
+              "horizontalMargin": {
+                "max": 20,
+                "min": 0,
+                "value": 0.018
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 20,
+                "min": 0,
+                "value": 0.018
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "full": {
+            "elements": [
+              {
+                "height": {
+                  "value": 1
+                },
+                "name": "UnmuteArea",
+                "type": "UnmuteArea",
+                "width": {
+                  "value": 1
+                }
+              }
+            ]
+          },
+          "topLeft": {
+            "elements": [
+              {
+                "animation": {
+                  "delay": "0s",
+                  "duration": "0.2s",
+                  "type": "fadeIn"
+                },
+                "contentSize": {
+                  "max": 26,
+                  "min": 14,
+                  "value": 0.034
+                },
+                "height": {
+                  "max": 88,
+                  "min": 30,
+                  "value": 0.08
+                },
+                "name": "Title",
+                "styles": {
+                  "textAlign": "left"
+                },
+                "type": "TitleLabel",
+                "width": {
+                  "value": 0.85
+                },
+                "widthBasedSizing": true
+              }
+            ],
+            "positioning": {
+              "anchorLeft": true,
+              "anchorTop": true,
+              "horizontalMargin": {
+                "max": 16,
+                "min": 0,
+                "value": 0.02
+              },
+              "verticalMargin": {
+                "inverted": true,
+                "max": 16,
+                "min": 0,
+                "value": 0.02
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          },
+          "topRight": {
+            "elements": [
+              {
+                "aspect": 1,
+                "contentSize": {
+                  "max": 18,
+                  "min": 0,
+                  "value": 0.065
+                },
+                "name": "Close Dock Button",
+                "styles": {
+                  "fontWeight": 900
+                },
+                "type": "CloseDockButton",
+                "width": {
+                  "max": 58,
+                  "min": 0,
+                  "value": 0.12
+                }
+              }
+            ],
+            "positioning": {
+              "anchorRight": true,
+              "anchorTop": true,
+              "horizontalMargin": {
+                "value": 0
+              },
+              "verticalMargin": {
+                "value": 0
+              }
+            },
+            "stacking": "row",
+            "zIndex": 1
+          }
+        }
+      }
+    }
+  },
+  "embedBorderRadius": "5px",
+  "playerAspect": "16:9"
+}
