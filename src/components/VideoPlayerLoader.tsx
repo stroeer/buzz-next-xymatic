@@ -12,6 +12,6 @@ import { LegacyRef } from 'react';
 export default function VideoPlayerLoader({
   forwardRef,
   ...props
-}: { forwardRef: LegacyRef<GreenVideo> } & GreenVideoProps) {
+}: { forwardRef?: LegacyRef<GreenVideo> } & GreenVideoProps) {
   return <GreenVideoPlayer ref={forwardRef} {...props} />;
 }

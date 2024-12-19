@@ -20,7 +20,7 @@ export default function Home() {
     >
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start text-5xl">
         <span>
-          @xymatic/green-video-player +{' '}
+          @xymatic/green-video-player-react +{' '}
           <Image className="dark:invert" src="/next.svg" alt="Next.js logo" width={180} height={38} priority />
         </span>
         <div>
