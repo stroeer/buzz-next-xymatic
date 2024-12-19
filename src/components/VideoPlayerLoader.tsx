@@ -1,4 +1,3 @@
-'use client';
 import GreenVideoPlayer, { GreenVideo, GreenVideoProps } from '@xymatic/green-video-player-react';
 import '@xymatic/green-video-player-react/index.css';
 import { LegacyRef } from 'react';
