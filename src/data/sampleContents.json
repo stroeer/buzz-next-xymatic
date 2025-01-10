@@ -1,0 +1,244 @@
+[
+  {
+    "vendorSpecificId": "d160ea2b-41b5-44cc-83d7-38aee0b13bb0",
+    "adsDisallowed": false,
+    "date": "2024-07-01T17:34:40.877Z",
+    "deleted": false,
+    "duration": 57,
+    "enabled": true,
+    "modifiedDate": "2024-07-01T18:00:21.770Z",
+    "poster": [
+      {
+        "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/POSTER_USER/v0/5730229f-3834-40da-9376-f5ee209627b2.jpeg",
+        "name": "de1d6c7997a06607772bb21cf8bf4b7ab5415fde.jpeg",
+        "type": "image/jpeg",
+        "width": 640,
+        "format": "DEFAULT",
+        "height": 360,
+        "status": "COMPLETE",
+        "version": 0,
+        "originalFilename": "de1d6c7997a06607772bb21cf8bf4b7ab5415fde.jpeg",
+        "generatedFileName": "5730229f-3834-40da-9376-f5ee209627b2.jpeg"
+      }
+    ],
+    "posterRenditions": [
+      {
+        "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000005.jpg",
+        "name": "POSTER",
+        "size": 7744,
+        "type": "image/jpeg",
+        "count": 11,
+        "width": 640,
+        "height": 360,
+        "status": "COMPLETE",
+        "version": 0,
+        "duration": 60,
+        "progress": 1,
+        "srcArray": [
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000000.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000001.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000002.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000003.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000004.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000005.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000006.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000007.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000008.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000009.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000010.jpg"
+        ],
+        "completedAt": "2024-07-01T18:00:21.561Z"
+      }
+    ],
+    "posterType": "CUSTOM_POSTER",
+    "shortTitle": "Nachrichten & Politik",
+    "summary": "Nach heftigen Unwettern in der Schweiz bergen Rettungskräfte Menschen aus einem überfluteten Gebiet, wie Aufnahmen eines Augenzeugen zeigen. #schweiz #unwetter #überschwemmung #wallis \n\n",
+    "thumbsRenditions": [
+      {
+        "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000005.jpg",
+        "name": "THUMBS",
+        "size": 1171,
+        "type": "image/jpeg",
+        "count": 11,
+        "width": 100,
+        "height": 56,
+        "status": "COMPLETE",
+        "version": 0,
+        "duration": 60,
+        "progress": 1,
+        "srcArray": [
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000000.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000001.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000002.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000003.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000004.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000005.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000006.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000007.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000008.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000009.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000010.jpg"
+        ],
+        "completedAt": "2024-07-01T18:00:21.561Z"
+      }
+    ],
+    "title": "Schweiz: Helikopter-Rettung aus Flut in Wallis",
+    "uid": "dTLtTAnaPPetVU6zSiuxOn4ik813",
+    "userCategory": "Nachrichten & Politik",
+    "userMetadata": {
+      "credit": "t-online",
+      "ingestId": "IU-4JlhU",
+      "ingestDate": "2024-07-01T18:00:02.805Z"
+    },
+    "userTags": ["t-online"],
+    "videoRenditions": [
+      {
+        "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/HD/media.mp4",
+        "name": "HD",
+        "size": 6327754,
+        "type": "video/mp4",
+        "jobId": "1719856811311-xrkl4z",
+        "width": 1280,
+        "format": "MONO_FLAT",
+        "height": 720,
+        "status": "COMPLETE",
+        "version": 0,
+        "duration": 57,
+        "progress": 1,
+        "completedAt": "2024-07-01T18:00:21.561Z"
+      },
+      {
+        "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/SD/media.mp4",
+        "name": "SD",
+        "size": 3033350,
+        "type": "video/mp4",
+        "jobId": "1719856811311-xrkl4z",
+        "width": 640,
+        "format": "MONO_FLAT",
+        "height": 360,
+        "status": "COMPLETE",
+        "version": 0,
+        "duration": 57,
+        "progress": 1,
+        "completedAt": "2024-07-01T18:00:21.561Z"
+      }
+    ],
+    "type": "video"
+  },
+  {
+    "vendorSpecificId": "27a6f219-c07c-421a-a1fb-1644ac42e65c",
+    "adsDisallowed": false,
+    "date": "2024-06-29T08:33:40.200Z",
+    "deleted": false,
+    "duration": 32,
+    "enabled": true,
+    "modifiedDate": "2024-06-29T09:00:13.500Z",
+    "poster": [
+      {
+        "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/POSTER_USER/v0/de9002b5-a7be-4e8e-ab2f-6a80de2444dd.jpeg",
+        "name": "d386ce35c4f8560c93ced1d91750f7a73748fe14.jpeg",
+        "type": "image/jpeg",
+        "width": 640,
+        "format": "DEFAULT",
+        "height": 360,
+        "status": "COMPLETE",
+        "version": 0,
+        "originalFilename": "d386ce35c4f8560c93ced1d91750f7a73748fe14.jpeg",
+        "generatedFileName": "de9002b5-a7be-4e8e-ab2f-6a80de2444dd.jpeg"
+      }
+    ],
+    "posterRenditions": [
+      {
+        "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/POSTER/media.0000003.jpg",
+        "name": "POSTER",
+        "size": 38686,
+        "type": "image/jpeg",
+        "count": 6,
+        "width": 360,
+        "height": 640,
+        "status": "COMPLETE",
+        "version": 0,
+        "duration": 35,
+        "progress": 1,
+        "srcArray": [
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/POSTER/media.0000000.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/POSTER/media.0000001.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/POSTER/media.0000002.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/POSTER/media.0000003.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/POSTER/media.0000004.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/POSTER/media.0000005.jpg"
+        ],
+        "completedAt": "2024-06-29T09:00:13.309Z"
+      }
+    ],
+    "posterType": "CUSTOM_POSTER",
+    "shortTitle": "Nachrichten & Politik",
+    "summary": "In unserer neuen Podcast-Folge liefern sich CDU-Politiker Philipp Amthor und t-online-Chefredakteur Florian Harms einen kontroversen Schlagabtausch zum Thema Migration. Die Ampelregierung würde die Probleme nicht lösen, kritisiert @philipp.amthor. Die ungesteuerte Migration habe jedoch mit der Merkel-Regierung begonnen, hält Harms dem CDU-Politiker entgegen. Jetzt auf Spotify anhören! 🎧\n\n#Deutschland #Migration #Ampel #CDU #Podcast #Shorts \n\nUnser t-online-YouTube-Kanal versorgt Sie mit Nachrichten zu allen wichtigen gesellschaftlichen Themen, Recherchen, Reportagen und eigenen Interviews. Auch Erklärvideos zu Klima, Inflation, Nachhaltigkeit oder Finanzen liegen uns am Herzen. \n\nHier finden Sie uns:\n",
+    "thumbsRenditions": [
+      {
+        "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/THUMBS/media.0000003.jpg",
+        "name": "THUMBS",
+        "size": 2911,
+        "type": "image/jpeg",
+        "count": 6,
+        "width": 56,
+        "height": 100,
+        "status": "COMPLETE",
+        "version": 0,
+        "duration": 35,
+        "progress": 1,
+        "srcArray": [
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/THUMBS/media.0000000.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/THUMBS/media.0000001.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/THUMBS/media.0000002.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/THUMBS/media.0000003.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/THUMBS/media.0000004.jpg",
+          "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/THUMBS/media.0000005.jpg"
+        ],
+        "completedAt": "2024-06-29T09:00:13.309Z"
+      }
+    ],
+    "title": "CDU-Politiker Philipp Amthor: \"Es braucht eine migrationspolitische Wende\"",
+    "uid": "dTLtTAnaPPetVU6zSiuxOn4ik813",
+    "userCategory": "Nachrichten & Politik",
+    "userMetadata": {
+      "credit": "t-online",
+      "ingestId": "IU-4JlhU",
+      "ingestDate": "2024-06-29T09:00:01.346Z"
+    },
+    "userTags": ["t-online"],
+    "videoRenditions": [
+      {
+        "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/HD/media.mp4",
+        "name": "HD",
+        "size": 3105284,
+        "type": "video/mp4",
+        "jobId": "1719651607086-eebdzm",
+        "width": 608,
+        "format": "MONO_FLAT",
+        "height": 1080,
+        "status": "COMPLETE",
+        "version": 0,
+        "duration": 32,
+        "progress": 1,
+        "completedAt": "2024-06-29T09:00:13.309Z"
+      },
+      {
+        "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/SD/media.mp4",
+        "name": "SD",
+        "size": 2104919,
+        "type": "video/mp4",
+        "jobId": "1719651607086-eebdzm",
+        "width": 406,
+        "format": "MONO_FLAT",
+        "height": 720,
+        "status": "COMPLETE",
+        "version": 0,
+        "duration": 32,
+        "progress": 1,
+        "completedAt": "2024-06-29T09:00:13.309Z"
+      }
+    ],
+    "type": "video"
+  }
+]
