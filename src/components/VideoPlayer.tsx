@@ -39,10 +39,10 @@ export const VideoPlayer: FC = () => {
           contents: [
             sampleContents[0],
             sampleContents[1],
+            sampleContents[2],
             sampleContents[0],
             sampleContents[1],
-            sampleContents[0],
-            sampleContents[1],
+            sampleContents[2],
           ],
         }}
         onEvent={onEvent}
