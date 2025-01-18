@@ -3,118 +3,62 @@
     "vendorSpecificId": "OjCSA3z8qP0j",
     "adsDisallowed": false,
     "date": "2025-01-17T12:00:00.000Z",
-    "deleted": false,
     "duration": 81,
-    "enabled": true,
     "modifiedDate": "2025-01-17T12:00:00.000Z",
     "poster": [
       {
         "src": "https://images.t-online.de/2025/01/2lXucZZHLst2/0x0:1920x1080/fit-in/__WIDTH__x0/keine-begruessung-der-tiktoker-brooklyn-laesst-olaf-scholz-abblitzen.jpg",
-        "name": "16:9 Poster",
-        "type": "image/jpeg",
         "width": 1920,
-        "format": "DEFAULT",
         "height": 1080,
-        "status": "COMPLETE",
-        "version": 1,
-        "originalFilename": "keine-begruessung-der-tiktoker-brooklyn-laesst-olaf-scholz-abblitzen.jpg",
-        "generatedFileName": "keine-begruessung-der-tiktoker-brooklyn-laesst-olaf-scholz-abblitzen.jpg"
+        "version": 1
       }
     ],
     "posterRenditions": [
       {
         "src": "https://images.t-online.de/2025/01/2lXucZZHLst2/0x0:1920x1080/fit-in/__WIDTH__x0/keine-begruessung-der-tiktoker-brooklyn-laesst-olaf-scholz-abblitzen.jpg",
-        "name": "POSTER",
-        "size": 14855,
-        "type": "image/jpeg",
-        "count": 1,
         "width": 1920,
         "height": 1080,
-        "status": "COMPLETE",
-        "version": 1,
-        "duration": 0,
-        "progress": 1,
-        "srcArray": [
-          "https://images.t-online.de/2025/01/2lXucZZHLst2/0x0:1920x1080/fit-in/__WIDTH__x0/keine-begruessung-der-tiktoker-brooklyn-laesst-olaf-scholz-abblitzen.jpg"
-        ],
-        "completedAt": "2025-01-17T12:00:00.000Z"
-      }
-    ],
-    "thumbsRenditions": [
-      {
-        "src": "https://images.t-online.de/2025/01/2lXucZZHLst2/0x0:1920x1080/fit-in/__WIDTH__x0/keine-begruessung-der-tiktoker-brooklyn-laesst-olaf-scholz-abblitzen.jpg",
-        "name": "THUMBS",
-        "size": 1373,
-        "type": "image/jpeg",
         "count": 1,
-        "width": 100,
-        "height": 56,
-        "status": "COMPLETE",
         "version": 1,
-        "duration": 0,
-        "progress": 1,
         "srcArray": [
           "https://images.t-online.de/2025/01/2lXucZZHLst2/0x0:1920x1080/fit-in/__WIDTH__x0/keine-begruessung-der-tiktoker-brooklyn-laesst-olaf-scholz-abblitzen.jpg"
-        ],
-        "completedAt": "2025-01-17T12:00:00.000Z"
+        ]
       }
     ],
     "title": "Influencer lässt Olaf Scholz abblitzen",
-    "uid": "",
     "videoRenditions": [
       {
-        "src": "https://videos.t-online.de/2025/01/NXjTlJkqHUh5/cmaf/video.m3u8",
+        "src": "https://videos.t-online.de/2025/01/OjCSA3z8qP0j/cmaf/video.m3u8",
         "name": "HLS",
-        "size": 0,
         "type": "application/vnd.apple.mpegurl",
-        "jobId": "",
         "width": 0,
-        "format": "MONO_FLAT",
         "height": 0,
-        "status": "COMPLETE",
         "version": 1,
-        "duration": 81,
-        "progress": 1,
-        "completedAt": "2025-01-17T12:00:00.000Z"
+        "duration": 81
       }
-    ],
-    "type": "video"
+    ]
   },
   {
     "vendorSpecificId": "d160ea2b-41b5-44cc-83d7-38aee0b13bb0",
     "adsDisallowed": false,
     "date": "2024-07-01T17:34:40.877Z",
-    "deleted": false,
     "duration": 57,
-    "enabled": true,
     "modifiedDate": "2024-07-01T18:00:21.770Z",
     "poster": [
       {
         "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/POSTER_USER/v0/5730229f-3834-40da-9376-f5ee209627b2.jpeg",
-        "name": "de1d6c7997a06607772bb21cf8bf4b7ab5415fde.jpeg",
-        "type": "image/jpeg",
         "width": 640,
-        "format": "DEFAULT",
         "height": 360,
-        "status": "COMPLETE",
-        "version": 0,
-        "originalFilename": "de1d6c7997a06607772bb21cf8bf4b7ab5415fde.jpeg",
-        "generatedFileName": "5730229f-3834-40da-9376-f5ee209627b2.jpeg"
+        "version": 0
       }
     ],
     "posterRenditions": [
       {
         "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000005.jpg",
-        "name": "POSTER",
-        "size": 7744,
-        "type": "image/jpeg",
         "count": 11,
         "width": 640,
         "height": 360,
-        "status": "COMPLETE",
         "version": 0,
-        "duration": 60,
-        "progress": 1,
         "srcArray": [
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000000.jpg",
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000001.jpg",
@@ -127,26 +71,19 @@
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000008.jpg",
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000009.jpg",
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/POSTER/media.0000010.jpg"
-        ],
-        "completedAt": "2024-07-01T18:00:21.561Z"
+        ]
       }
     ],
     "posterType": "CUSTOM_POSTER",
     "shortTitle": "Nachrichten & Politik",
-    "summary": "Nach heftigen Unwettern in der Schweiz bergen Rettungskräfte Menschen aus einem überfluteten Gebiet, wie Aufnahmen eines Augenzeugen zeigen. #schweiz #unwetter #überschwemmung #wallis \n\n",
+    "summary": "Nach heftigen Unwettern in der Schweiz bergen Rettungskräfte Menschen.",
     "thumbsRenditions": [
       {
         "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000005.jpg",
-        "name": "THUMBS",
-        "size": 1171,
-        "type": "image/jpeg",
         "count": 11,
         "width": 100,
         "height": 56,
-        "status": "COMPLETE",
         "version": 0,
-        "duration": 60,
-        "progress": 1,
         "srcArray": [
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000000.jpg",
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000001.jpg",
@@ -159,88 +96,57 @@
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000008.jpg",
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000009.jpg",
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/THUMBS/media.0000010.jpg"
-        ],
-        "completedAt": "2024-07-01T18:00:21.561Z"
+        ]
       }
     ],
     "title": "Schweiz: Helikopter-Rettung aus Flut in Wallis",
-    "uid": "dTLtTAnaPPetVU6zSiuxOn4ik813",
     "userCategory": "Nachrichten & Politik",
     "userMetadata": {
-      "credit": "t-online",
-      "ingestId": "IU-4JlhU",
-      "ingestDate": "2024-07-01T18:00:02.805Z"
+      "credit": "t-online"
     },
-    "userTags": ["t-online"],
+    "userTags": [
+      "t-online"
+    ],
     "videoRenditions": [
       {
         "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/HD/media.mp4",
         "name": "HD",
-        "size": 6327754,
         "type": "video/mp4",
-        "jobId": "1719856811311-xrkl4z",
         "width": 1280,
-        "format": "MONO_FLAT",
         "height": 720,
-        "status": "COMPLETE",
         "version": 0,
-        "duration": 57,
-        "progress": 1,
-        "completedAt": "2024-07-01T18:00:21.561Z"
+        "duration": 57
       },
       {
         "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/de1d6c7997a06607772bb21cf8bf4b7ab5415fde/MEDIA/v0/SD/media.mp4",
         "name": "SD",
-        "size": 3033350,
         "type": "video/mp4",
-        "jobId": "1719856811311-xrkl4z",
         "width": 640,
-        "format": "MONO_FLAT",
         "height": 360,
-        "status": "COMPLETE",
         "version": 0,
-        "duration": 57,
-        "progress": 1,
-        "completedAt": "2024-07-01T18:00:21.561Z"
+        "duration": 57
       }
-    ],
-    "type": "video"
+    ]
   },
   {
     "vendorSpecificId": "27a6f219-c07c-421a-a1fb-1644ac42e65c",
     "adsDisallowed": false,
     "date": "2024-06-29T08:33:40.200Z",
-    "deleted": false,
     "duration": 32,
-    "enabled": true,
     "modifiedDate": "2024-06-29T09:00:13.500Z",
     "poster": [
       {
         "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/POSTER_USER/v0/de9002b5-a7be-4e8e-ab2f-6a80de2444dd.jpeg",
-        "name": "d386ce35c4f8560c93ced1d91750f7a73748fe14.jpeg",
-        "type": "image/jpeg",
         "width": 640,
-        "format": "DEFAULT",
-        "height": 360,
-        "status": "COMPLETE",
         "version": 0,
-        "originalFilename": "d386ce35c4f8560c93ced1d91750f7a73748fe14.jpeg",
-        "generatedFileName": "de9002b5-a7be-4e8e-ab2f-6a80de2444dd.jpeg"
+        "height": 360
       }
     ],
     "posterRenditions": [
       {
         "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/POSTER/media.0000003.jpg",
-        "name": "POSTER",
-        "size": 38686,
-        "type": "image/jpeg",
         "count": 6,
-        "width": 360,
-        "height": 640,
-        "status": "COMPLETE",
         "version": 0,
-        "duration": 35,
-        "progress": 1,
         "srcArray": [
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/POSTER/media.0000000.jpg",
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/POSTER/media.0000001.jpg",
@@ -249,7 +155,8 @@
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/POSTER/media.0000004.jpg",
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/POSTER/media.0000005.jpg"
         ],
-        "completedAt": "2024-06-29T09:00:13.309Z"
+        "width": 360,
+        "height": 640
       }
     ],
     "posterType": "CUSTOM_POSTER",
@@ -258,16 +165,8 @@
     "thumbsRenditions": [
       {
         "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/THUMBS/media.0000003.jpg",
-        "name": "THUMBS",
-        "size": 2911,
-        "type": "image/jpeg",
         "count": 6,
-        "width": 56,
-        "height": 100,
-        "status": "COMPLETE",
         "version": 0,
-        "duration": 35,
-        "progress": 1,
         "srcArray": [
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/THUMBS/media.0000000.jpg",
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/THUMBS/media.0000001.jpg",
@@ -276,50 +175,37 @@
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/THUMBS/media.0000004.jpg",
           "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/THUMBS/media.0000005.jpg"
         ],
-        "completedAt": "2024-06-29T09:00:13.309Z"
+        "width": 56,
+        "height": 100
       }
     ],
     "title": "CDU-Politiker Philipp Amthor: \"Es braucht eine migrationspolitische Wende\"",
-    "uid": "dTLtTAnaPPetVU6zSiuxOn4ik813",
     "userCategory": "Nachrichten & Politik",
     "userMetadata": {
-      "credit": "t-online",
-      "ingestId": "IU-4JlhU",
-      "ingestDate": "2024-06-29T09:00:01.346Z"
+      "credit": "t-online"
     },
-    "userTags": ["t-online"],
+    "userTags": [
+      "t-online"
+    ],
     "videoRenditions": [
       {
         "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/HD/media.mp4",
-        "name": "HD",
-        "size": 3105284,
         "type": "video/mp4",
-        "jobId": "1719651607086-eebdzm",
-        "width": 608,
-        "format": "MONO_FLAT",
-        "height": 1080,
-        "status": "COMPLETE",
         "version": 0,
         "duration": 32,
-        "progress": 1,
-        "completedAt": "2024-06-29T09:00:13.309Z"
+        "name": "HD",
+        "width": 608,
+        "height": 1080
       },
       {
         "src": "https://media.delight.video/be132c877a4e0d3cf874074f4d9bdf7885c611a1/d386ce35c4f8560c93ced1d91750f7a73748fe14/MEDIA/v0/SD/media.mp4",
-        "name": "SD",
-        "size": 2104919,
         "type": "video/mp4",
-        "jobId": "1719651607086-eebdzm",
-        "width": 406,
-        "format": "MONO_FLAT",
-        "height": 720,
-        "status": "COMPLETE",
         "version": 0,
         "duration": 32,
-        "progress": 1,
-        "completedAt": "2024-06-29T09:00:13.309Z"
+        "name": "SD",
+        "width": 406,
+        "height": 720
       }
-    ],
-    "type": "video"
+    ]
   }
 ]
