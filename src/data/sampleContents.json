@@ -2,9 +2,9 @@
   {
     "vendorSpecificId": "OjCSA3z8qP0j",
     "adsDisallowed": false,
-    "date": "2025-01-17T12:00:00.000Z",
+    "date": "2025-01-14T12:00:00.000Z",
     "duration": 81,
-    "modifiedDate": "2025-01-17T12:00:00.000Z",
+    "modifiedDate": "2025-01-14T12:00:00.000Z",
     "poster": [
       {
         "src": "https://images.t-online.de/2025/01/2lXucZZHLst2/0x0:1920x1080/fit-in/__WIDTH__x0/keine-begruessung-der-tiktoker-brooklyn-laesst-olaf-scholz-abblitzen.jpg",
@@ -26,13 +26,30 @@
       }
     ],
     "title": "Influencer lässt Olaf Scholz abblitzen",
+    "shortTitle": "Influencer lässt Olaf Scholz abblitzen",
+    "userCategory": "Nachrichten & Politik",
+    "userMetadata": {
+      "credit": "t-online"
+    },
+    "userTags": [
+      "t-online"
+    ],
     "videoRenditions": [
       {
         "src": "https://videos.t-online.de/2025/01/OjCSA3z8qP0j/cmaf/video.m3u8",
         "name": "HLS",
-        "type": "application/vnd.apple.mpegurl",
-        "width": 0,
-        "height": 0,
+        "type": "application/x-mpegurl",
+        "width": 1920,
+        "height": 1080,
+        "version": 1,
+        "duration": 81
+      },
+      {
+        "src": "https://videos.t-online.de/2025/01/OjCSA3z8qP0j/mp4/video.mp4",
+        "name": "HD",
+        "type": "video/mp4",
+        "width": 1920,
+        "height": 1080,
         "version": 1,
         "duration": 81
       }
