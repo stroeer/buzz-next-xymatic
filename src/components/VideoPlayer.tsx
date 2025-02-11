@@ -13,7 +13,7 @@ export const VideoPlayer: FC = () => {
         break;
       }
       case 'ms_25': {
-        alert('25% milestone reached!');
+        console.log('25% milestone reached!');
         break;
       }
       default: {
@@ -48,7 +48,7 @@ export const VideoPlayer: FC = () => {
         onEvent={onEvent}
         plugins={{
           pluginAdGetExternalVastTag: async function () {
-            return 'https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator='
+            return 'https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_preroll_skippable&sz=640x480&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=';
           },
         }}
       />
